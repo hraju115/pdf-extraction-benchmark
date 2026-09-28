@@ -1,0 +1,6 @@
+[
+ {
+  "page": 72,
+  "html": "<table><tr><td>Method Name</td><td>Description</td><td>Section</td></tr><tr><td>GET</td><td>Transfer a current representation of the target resource.</td><td>9.3.1</td></tr><tr><td>HEAD</td><td>Same as GET, but do not transfer the response content.</td><td>9.3.2</td></tr><tr><td>POST</td><td>Perform resource-specific processing on the request content.</td><td>9.3.3</td></tr><tr><td>PUT</td><td>Replace all current representations of the target resource with the request content.</td><td>9.3.4</td></tr><tr><td>DELETE</td><td>Remove all current representations of the target resource.</td><td>9.3.5</td></tr><tr><td>CONNECT</td><td>Establish a tunnel to the server identified by the target resource.</td><td>9.3.6</td></tr><tr><td>OPTIONS</td><td>Describe the communication options for the target resource.</td><td>9.3.7</td></tr><tr><td>TRACE</td><td>Perform a message loop-back test along the path to the target resource.</td><td>9.3.8</td></tr></table>"
+ }
+]

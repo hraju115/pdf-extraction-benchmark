@@ -1,0 +1,24 @@
+# PDF extraction benchmark configuration.
+# Local extractors only: every extractor runs on this machine, in its own virtualenv.
+
+limits:
+  max_rss_gb: 4      # the user's machine has ~7-14 GB free; a worker above this is killed and recorded as oom
+  timeout_min: 30    # kill an extractor that runs longer than this on one document
+
+sampling:
+  default_max_pages: null      # null = extract whole documents
+  per_extractor:
+    paddleocr_vl: 10           # CPU-only VLM: sample the first 10 pages (results are labelled "sampled")
+
+extractors:
+  pymupdf:      {enabled: true}
+  pymupdf4llm:  {enabled: true}
+  pdfplumber:   {enabled: true}
+  docling:      {enabled: true, ocr: true}
+  marker:       {enabled: false}   # its OCR path needs llama.cpp's llama-server (not installed, see the ledger)
+  marker_noocr: {enabled: true, adapter: marker, disable_ocr: true}   # Marker on the text layer only
+  mineru:       {enabled: true, backend: pipeline}
+  tesseract:    {enabled: true, dpi: 300, lang: eng}
+  easyocr:      {enabled: true, dpi: 200, languages: [en]}
+  paddleocr_vl: {enabled: false, dpi: 200}   # exceeds the memory this machine can spare (killed above 8 GB on one page); see the ledger
+

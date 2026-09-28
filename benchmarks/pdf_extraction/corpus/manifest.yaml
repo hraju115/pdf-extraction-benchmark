@@ -1,0 +1,189 @@
+# PDF extraction benchmark corpus (real + scanned documents). Generated documents are defined in code
+# (corpus/generated.py). Licenses were read from the sources: IETF Trust Legal Provisions s.3.c for RFCs
+# (copy/distribute complete unmodified documents); usa.gov/government-copyright and nasa.gov media guidelines
+# for US government works. Downloads live in data/benchmark_pdfs (gitignored) and are never redistributed.
+# Empty cells: none deliberately; every tier x bucket cell has at least one document.
+documents:
+- id: rfc9158
+  tier: T1
+  bucket: S
+  source: real
+  pages: 4
+  url: https://www.rfc-editor.org/rfc/rfc9158.pdf
+  license: ietf-trust
+  sha256: a3173b003d2345af11d45d6475fc12c31457a75b41d3e485d5c31ba9615192d1
+  truth_from_native: true
+  notes: 'IETF RFC, 4 pages. License: IETF Trust Legal Provisions s.3.c (copy/distribute complete unmodified documents); confirmed from the RFC''s
+    own Copyright Notice.'
+- id: rfc9457
+  tier: T1
+  bucket: M
+  source: real
+  pages: 16
+  url: https://www.rfc-editor.org/rfc/rfc9457.pdf
+  license: ietf-trust
+  sha256: 9e556f5dcbf7dd780928cfe03ec7f2080a635e1bcb41ddbeecbe8141c67d09ed
+  truth_from_native: true
+  notes: IETF RFC 9457 Problem Details for HTTP APIs.
+- id: rfc9112
+  tier: T1
+  bucket: L
+  source: real
+  pages: 46
+  url: https://www.rfc-editor.org/rfc/rfc9112.pdf
+  license: ietf-trust
+  sha256: b260bba790c2da55a7e0795f356fcd9b70743686c55250f0ef1cc993c4d1abac
+  truth_from_native: true
+  notes: IETF RFC 9112 HTTP/1.1.
+- id: rfc9110
+  tier: T1
+  bucket: XL
+  source: real
+  pages: 194
+  url: https://www.rfc-editor.org/rfc/rfc9110.pdf
+  license: ietf-trust
+  sha256: 60b30efa1048900833d1758440247fe8ac85a3134f2327388dcb24e07d814c89
+  truth_from_native: true
+  notes: IETF RFC 9110 HTTP Semantics, 194 pages.
+- id: erp2024_table1
+  tier: T2
+  bucket: S
+  source: real
+  pages: 2
+  url: https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024-table1.pdf
+  license: us-gov-work
+  sha256: 8671f2f5466f6541ccfb420b1dfbcde8673c4832ab7b1f34de4d77e76b24a847
+  truth_from_native: false
+  notes: Economic Report of the President 2024, Table B-1 (wide statistical table). US government work (usa.gov/government-copyright).
+- id: erp2024_table3
+  tier: T2
+  bucket: S
+  source: real
+  pages: 2
+  url: https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024-table3.pdf
+  license: us-gov-work
+  sha256: e9f70df9abedaee30d093f3a65ea86a98706c194881833516d1bb9d7a7c337c5
+  truth_from_native: false
+  notes: Economic Report of the President 2024, Table B-3 (GDP).
+- id: acsbr_023
+  tier: T2
+  bucket: M
+  source: real
+  pages: 9
+  url: https://www2.census.gov/library/publications/2024/demo/acsbr-023.pdf
+  license: us-gov-work
+  sha256: 3c787b7467dd3dd3b7160cf53bde335ff7bff1b67c8afa7aa310079b7f7d020d
+  truth_from_native: false
+  notes: 'Census Bureau ACS Brief: household income in states and metro areas, 9 pages with tables.'
+- id: p60_282
+  tier: T2
+  bucket: L
+  source: real
+  pages: 59
+  url: https://www2.census.gov/library/publications/2024/demo/p60-282.pdf
+  license: us-gov-work
+  sha256: e6cf145cb10b5d037f5e77fa199d2e558bfe24f76273f385e9767c2eabba1cbf
+  truth_from_native: false
+  notes: 'Census Bureau P60-282 Income in the United States: 2023, 59 pages of tables and figures.'
+- id: erp2024_full
+  tier: T2
+  bucket: XL
+  source: real
+  pages: 487
+  url: https://www.govinfo.gov/content/pkg/ERP-2024/pdf/ERP-2024.pdf
+  license: us-gov-work
+  sha256: 2f8bf287fab050bc3213a0a53feac974c6a0b1862193c59d8530453555ff3aa1
+  truth_from_native: false
+  notes: Economic Report of the President 2024, 487 pages of prose, tables and charts.
+- id: nasa_webb_factsheet
+  tier: T4
+  bucket: S
+  source: real
+  pages: 2
+  url: https://science.nasa.gov/wp-content/uploads/2024/08/webbfactsheet.pdf
+  license: us-gov-work
+  sha256: 84933f93b67aacaf2871ced720d76cd18d1637fde65ae9c561282ddfc692c71e
+  truth_from_native: false
+  notes: NASA fact sheet, 2 pages with a diagram. NASA content is generally not copyrighted (nasa.gov media guidelines); may contain third-party
+    images, so it is used locally only and never redistributed.
+- id: nasa_tm_x9471
+  tier: T4
+  bucket: M
+  source: real
+  pages: 7
+  url: https://ntrs.nasa.gov/api/citations/20230004248/downloads/NASA%20TM%20X-9471.pdf
+  license: us-gov-work
+  sha256: 4ce569c9ae25d430c4c4e550bd8c626385d7f4270940a43f4e923daef95d650f
+  truth_from_native: false
+  notes: NASA TM X-9471 (2023), born-digital, 7 pages with figures.
+- id: nasa_tm100396
+  tier: T4
+  bucket: L
+  source: real
+  pages: 46
+  url: https://ntrs.nasa.gov/api/citations/19900019599/downloads/19900019599.pdf
+  license: us-gov-work
+  sha256: e7eb0ea5e2b6cea413435a4bd975e607362219b30a5ef6b1e619faf060f1adce
+  truth_from_native: false
+  notes: 'NASA TM-100396 (1990) STS-34 launch atmospheric environment; scanned paper report carrying a hidden OCR text layer. Distribution statement:
+    Unclassified - Unlimited.'
+- id: nasa_tm104114
+  tier: T4
+  bucket: XL
+  source: real
+  pages: 103
+  url: https://ntrs.nasa.gov/api/citations/19910020754/downloads/19910020754.pdf
+  license: us-gov-work
+  sha256: 5896332878fd15a8db9fd8f7da638f5f0c84d9e59cb34c370ec6fbe255bc249f
+  truth_from_native: false
+  notes: NASA TM-104114 (1991) manned lunar habitats; scanned paper report with hidden OCR layer, 103 pages of diagrams.
+- id: nasa_se_handbook
+  tier: T4
+  bucket: XL
+  source: real
+  pages: 297
+  url: https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf
+  license: us-gov-work
+  sha256: 8eeb4887a4dc57a23049da7dd2ed556833cf98e214b240468d987873164ff688
+  truth_from_native: false
+  notes: NASA Systems Engineering Handbook SP-2016-6105 Rev2, 297 pages of diagrams and tables.
+- id: scan_rfc9158
+  tier: T3
+  bucket: S
+  source: scan
+  derived_from: rfc9158
+  dpi: 200
+  degrade: true
+  notes: Rasterized to an image-only PDF (no text layer). Local test artifact, never redistributed.
+- id: scan_acsbr_023
+  tier: T3
+  bucket: M
+  source: scan
+  derived_from: acsbr_023
+  dpi: 200
+  degrade: false
+  notes: Rasterized to an image-only PDF (no text layer). Local test artifact, never redistributed.
+- id: scan_rfc9457
+  tier: T3
+  bucket: M
+  source: scan
+  derived_from: rfc9457
+  dpi: 200
+  degrade: true
+  notes: Rasterized to an image-only PDF (no text layer). Local test artifact, never redistributed.
+- id: scan_p60_282
+  tier: T3
+  bucket: L
+  source: scan
+  derived_from: p60_282
+  dpi: 200
+  degrade: false
+  notes: Rasterized to an image-only PDF (no text layer). Local test artifact, never redistributed.
+- id: scan_rfc9110
+  tier: T3
+  bucket: XL
+  source: scan
+  derived_from: rfc9110
+  dpi: 200
+  degrade: false
+  notes: Image-only rasterization of RFC 9110 (194 pages); its exact text truth is the RFC's own text layer. Local test artifact, never redistributed.

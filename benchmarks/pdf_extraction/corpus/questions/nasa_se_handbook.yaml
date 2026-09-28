@@ -1,0 +1,89 @@
+questions:
+- question: How many NASA SE processes does TABLE 2.1-1 align with AS9100?
+  answer: '17'
+  evidence:
+  - 17 NASA SE processes
+  - AS9100
+  page: 18
+  type: lookup
+- question: What is AS9100?
+  answer: A widely adopted and standardized quality management system developed for the commercial aerospace industry
+  evidence:
+  - AS9100 is a widely adopted and standardized
+  page: 18
+  type: lookup
+- question: Which baselines are labelled in the conceptual SE-engine diagram of FIGURE 2.2-1?
+  answer: Functional Baseline, Allocated Baseline and As-Deployed Baseline
+  evidence:
+  - Functional Baseline
+  - Allocated
+  - As-Deployed Baseline
+  page: 18
+  type: figure
+- question: Where are the life cycle phases described?
+  answer: In TABLE 2.2-1
+  evidence:
+  - life cycle phases are described in TABLE 2.2-1
+  page: 18
+  type: lookup
+- question: When are descope options developed?
+  answer: When the NGOs or other stakeholder expectation documentation is developed
+  evidence:
+  - Descope options are developed when the NGOs
+  page: 33
+  type: lookup
+- question: Which reviews are listed for Phase C?
+  answer: CDR, PRR, SIR and Safety review
+  evidence:
+  - CDR
+  - PRR
+  - SIR
+  - Safety review
+  page: 39
+  type: table_multi_row
+- question: What does Phase C contain regarding CDRs?
+  answer: 'A series of CDRs: the system-level CDR and CDRs for the different levels of the system hierarchy'
+  evidence:
+  - Phase C contains a series of CDRs
+  page: 39
+  type: lookup
+- question: What is the title of Space Flight Phase D?
+  answer: System Assembly, Integration and Test, Launch
+  evidence:
+  - SPACE FLIGHT PHASE D
+  - SYSTEM ASSEMBLY, INTEGRATION AND TEST, LAUNCH
+  page: 40
+  type: lookup
+- question: What is the purpose of Phase D?
+  answer: To assemble and integrate the system (hardware, software, and humans) while developing confidence it will meet the system requirements
+  evidence:
+  - To assemble and integrate the system (hardware, software, and humans)
+  page: 40
+  type: lookup
+- question: Which reviews and audits close out Phase D?
+  answer: FRR, system functional and physical configuration audits, and a safety review
+  evidence:
+  - FRR
+  - System functional and physical configuration audits
+  - Safety review
+  page: 41
+  type: lookup
+- question: What is Project Phase E called?
+  answer: Operations and Sustainment
+  evidence:
+  - 3.8 Project Phase E
+  - Operations and Sustainment
+  page: 41
+  type: lookup
+- question: What is Project Phase F called?
+  answer: Closeout
+  evidence:
+  - 3.9 Project Phase F
+  - Closeout
+  page: 41
+  type: lookup
+- question: How many people work on the Space Shuttle program?
+  answer: The handbook does not give a headcount.
+  evidence: []
+  page: 40
+  type: unanswerable

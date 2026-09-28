@@ -1,0 +1,83 @@
+questions:
+- question: When was the Economic Report of the President transmitted to Congress?
+  answer: March 2024
+  evidence:
+  - march 2024
+  page: 1
+  type: lookup
+- question: In Table 1-1, what was the percent change in the 90th/10th percentile wage ratio from 2020:Q2 to 2023:Q4?
+  answer: -8 percent
+  evidence:
+  - 90th percentile / 10th percentile
+  - –8
+  page: 51
+  type: table_cell
+- question: What is the title of Table 1-2?
+  answer: Predicted Changes in Real Household Incomes over Selected Business Cycles
+  evidence:
+  - Predicted Changes in Real Household Incomes over Selected
+  page: 51
+  type: lookup
+- question: In Table 2-1, what was Q4/Q4 real GDP growth?
+  answer: 3.1 percent
+  evidence:
+  - Total
+  - '3.1'
+  page: 70
+  type: table_cell
+- question: In Table 2-1, what was the Q4/Q4 growth of consumer spending?
+  answer: 2.6 percent
+  evidence:
+  - Consumer spending
+  - '2.6'
+  page: 70
+  type: table_cell
+- question: In Table 2-1, how fast did structures investment grow Q4/Q4?
+  answer: 14.8 percent
+  evidence:
+  - Structures
+  - '14.8'
+  page: 70
+  type: table_cell
+- question: In Table 2-1, how did Q4/Q4 growth compare between federal defense and nondefense spending?
+  answer: Defense 3.3 percent versus nondefense 4.7 percent
+  evidence:
+  - Defense
+  - '3.3'
+  - Nondefense
+  - '4.7'
+  page: 70
+  type: table_multi_row
+- question: When did the Administration finalize its official economic forecast?
+  answer: November 9, 2023
+  evidence:
+  - November 9, 2023
+  page: 106
+  type: lookup
+- question: Over which years does the Administration's forecast run?
+  answer: 2024 to 2034
+  evidence:
+  - from 2024 to 2034
+  page: 106
+  type: lookup
+- question: In Table 2-2, what real GDP growth is forecast for 2024?
+  answer: 1.3 percent
+  evidence:
+  - Forecast
+  - '2024'
+  - '1.3'
+  page: 106
+  type: table_cell
+- question: In Table 2-2, what was the actual annual unemployment rate in 2023?
+  answer: 3.6 percent
+  evidence:
+  - Actual
+  - '2023'
+  - '3.6'
+  page: 106
+  type: table_cell
+- question: What is the projected GDP growth of Brazil in 2025?
+  answer: The report does not project Brazil's growth.
+  evidence: []
+  page: 70
+  type: unanswerable

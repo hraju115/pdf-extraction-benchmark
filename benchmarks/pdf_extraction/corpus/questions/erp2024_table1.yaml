@@ -1,0 +1,66 @@
+questions:
+- question: What does Table B-1 measure and over what years?
+  answer: Percent changes in real gross domestic product, 1973-2023
+  evidence:
+  - Percent changes in real gross domestic product, 1973–2023
+  page: 1
+  type: lookup
+- question: What was the percent change in real GDP in 1973?
+  answer: '4.0'
+  evidence:
+  - '1973'
+  - '4.0'
+  page: 1
+  type: table_cell
+- question: What was the percent change in real GDP in 1974?
+  answer: '-1.9'
+  evidence:
+  - '1974'
+  - –1.9
+  page: 1
+  type: table_cell
+- question: What was the percent change in real GDP in 1983?
+  answer: '7.9'
+  evidence:
+  - '1983'
+  - '7.9'
+  page: 1
+  type: table_cell
+- question: What was the percent change in real GDP in 1978?
+  answer: '6.7'
+  evidence:
+  - '1978'
+  - '6.7'
+  page: 1
+  type: table_cell
+- question: By what percent did personal consumption expenditures on services grow in 1973?
+  answer: '3.2'
+  evidence:
+  - '1973'
+  - '3.2'
+  page: 1
+  type: table_cell
+- question: What was the percent change in real GDP in 1985?
+  answer: '4.2'
+  evidence:
+  - '1985'
+  - '4.2'
+  page: 1
+  type: table_cell
+- question: What does footnote 1 define?
+  answer: Gross domestic product less exports of goods and services plus imports of goods and services
+  evidence:
+  - Gross domestic product (GDP) less exports of goods and services plus imports of goods and services
+  page: 2
+  type: lookup
+- question: Which agency is the source of the table?
+  answer: Department of Commerce (Bureau of Economic Analysis)
+  evidence:
+  - 'Source: Department of Commerce (Bureau of Economic Analysis)'
+  page: 2
+  type: lookup
+- question: What was the unemployment rate in 1975?
+  answer: The table reports GDP changes, not unemployment.
+  evidence: []
+  page: 1
+  type: unanswerable

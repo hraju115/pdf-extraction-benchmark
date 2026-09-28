@@ -1,0 +1,74 @@
+questions:
+- question: What is the title of the table and the period it covers?
+  answer: Table B-3. Gross domestic product, 2008-2023
+  evidence:
+  - Gross domestic product, 2008–2023
+  page: 1
+  type: lookup
+- question: In what unit are the annual figures reported, and how are quarterly figures adjusted?
+  answer: Billions of dollars; seasonally adjusted annual rates
+  evidence:
+  - Billions of dollars
+  - seasonally adjusted annual rates
+  page: 1
+  type: lookup
+- question: What was gross domestic product in 2015, in billions of dollars?
+  answer: 18,295.0
+  evidence:
+  - '2015'
+  - 18,295.0
+  page: 1
+  type: table_cell
+- question: What was gross domestic product in 2009, in billions of dollars?
+  answer: 14,478.1
+  evidence:
+  - '2009'
+  - 14,478.1
+  page: 1
+  type: table_cell
+- question: What were personal consumption expenditures on services in 2022?
+  answer: 11,514.7
+  evidence:
+  - '2022'
+  - 11,514.7
+  page: 1
+  type: table_cell
+- question: What was the 2023 GDP figure and is it flagged as preliminary?
+  answer: 27,356.4, flagged with p
+  evidence:
+  - 2023 p
+  - 27,356.4
+  page: 1
+  type: table_cell
+- question: How did GDP change between 2019 and 2020?
+  answer: It fell from 21,521.4 to 21,323.0 billion dollars
+  evidence:
+  - 21,521.4
+  - 21,323.0
+  page: 1
+  type: table_multi_row
+- question: What were net exports of goods and services in 2008?
+  answer: -740.9 billion dollars
+  evidence:
+  - –740.9
+  page: 2
+  type: table_cell
+- question: What were exports of goods and services in 2011?
+  answer: 2,115.9
+  evidence:
+  - '2011'
+  - 2,115.9
+  page: 2
+  type: table_cell
+- question: What was federal national defense spending in 2009?
+  answer: '787.6'
+  evidence:
+  - '2009'
+  - '787.6'
+  page: 2
+  type: table_cell
+- question: What was Canada's gross domestic product in 2023?
+  answer: The table covers only the United States.
+  evidence: []
+  page: 1
+  type: unanswerable

@@ -1,0 +1,5 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+mineru[pipeline]>=3.4,<4
+pymupdf
+six  # imported by MinerU 3.4.x's pipeline OCR but missing from its declared dependencies

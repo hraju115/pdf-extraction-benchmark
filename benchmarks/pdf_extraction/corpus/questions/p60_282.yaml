@@ -1,0 +1,96 @@
+questions:
+- question: What was real median household income in 2023 and how did it change from 2022?
+  answer: $80,610, a 4.0 percent increase from $77,540
+  evidence:
+  - $80,610
+  - $77,540
+  page: 7
+  type: lookup
+- question: By how much did the number of total workers increase between 2022 and 2023?
+  answer: 2.2 million, or 1.3 percent
+  evidence:
+  - 2.2 million
+  - 1.3 percent
+  page: 7
+  type: lookup
+- question: Which reports is this report released alongside?
+  answer: 'Poverty in the United States: 2023 and Health Insurance Coverage in the United States: 2023'
+  evidence:
+  - Poverty in the
+  - Health
+  - Insurance Coverage in the United
+  page: 7
+  type: lookup
+- question: In Figure 1, what was the 2023 median income of Asian households?
+  answer: $112,800
+  evidence:
+  - Asian
+  - $112,800
+  page: 8
+  type: table_cell
+- question: In Figure 1, what was the 2023 median income of Black households?
+  answer: $56,490
+  evidence:
+  - Black
+  - $56,490
+  page: 8
+  type: table_cell
+- question: In Figure 1, what was the median income in the Midwest region?
+  answer: $81,020, up 6.6 percent
+  evidence:
+  - Midwest
+  - $81,020
+  page: 8
+  type: table_cell
+- question: In Figure 1, what was the 2023 median income of foreign-born householders and how did it change?
+  answer: $73,360, a change of -1.1 percent
+  evidence:
+  - Foreign-born
+  - $73,360
+  page: 8
+  type: table_cell
+- question: What is the title of Table A-1?
+  answer: 'Income Summary Measures by Selected Characteristics: 2022 and 2023'
+  evidence:
+  - 'Income Summary Measures by Selected Characteristics: 2022 and 2023'
+  page: 21
+  type: lookup
+- question: Which price index is used to adjust the incomes in Table A-1?
+  answer: The C-CPI-U
+  evidence:
+  - C-CPI-U
+  page: 21
+  type: lookup
+- question: How many households (in thousands) are there in total in Table A-1?
+  answer: 131,400
+  evidence:
+  - All households
+  - 131,400
+  page: 21
+  type: table_cell
+- question: How many married-couple households (in thousands) are listed in Table A-1?
+  answer: 62,180
+  evidence:
+  - Married-couple
+  - 62,180
+  page: 21
+  type: table_cell
+- question: How many households (in thousands) have a Hispanic (any race) householder?
+  answer: 19,320
+  evidence:
+  - Hispanic (any race)
+  - 19,320
+  page: 21
+  type: table_cell
+- question: Which is larger in Table A-1, the number of Black households or the number of Asian households (in thousands)?
+  answer: 'Black households: 18,080 versus 7,609 Asian households'
+  evidence:
+  - 18,080
+  - 7,609
+  page: 21
+  type: table_multi_row
+- question: What was the median household income in Canada in 2023?
+  answer: The report covers only the United States.
+  evidence: []
+  page: 7
+  type: unanswerable

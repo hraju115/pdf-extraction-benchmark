@@ -1,0 +1,86 @@
+questions:
+- question: From which launch pad and center was STS-34 launched?
+  answer: Pad 39B at Kennedy Space Center, Florida
+  evidence:
+  - Pad 39B
+  - Kennedy Space Center
+  page: 9
+  type: lookup
+- question: When was STS-34 launched?
+  answer: 1654 u.t. (1254 e.d.t.) on October 18, 1989
+  evidence:
+  - 1654 u.t.
+  - October 18, 1989
+  page: 9
+  type: lookup
+- question: On what bearing was STS-34 launched?
+  answer: 68 degrees east of north
+  evidence:
+  - 68-degrees east of north
+  page: 9
+  type: lookup
+- question: Why were SRB descent/impact atmosphere data not taken for STS-34?
+  answer: Because a ship was unavailable for STS-34 duty
+  evidence:
+  - ship was unavailable for STS-34 duty
+  page: 9
+  type: lookup
+- question: How many MSFC/ABMA-related launches does the earlier report summarize?
+  answer: 155 launches, through SA-208 (Skylab 4)
+  evidence:
+  - 155 MSFC/ABMA-related vehicle launches
+  - SA-208
+  page: 9
+  type: lookup
+- question: What weather feature was moving through northwest Florida during liftoff?
+  answer: A cold front
+  evidence:
+  - A cold front was moving through northwest Florida
+  page: 10
+  type: lookup
+- question: Was any precipitation or lightning observed at launch time?
+  answer: No, neither precipitation nor lightning was observed
+  evidence:
+  - Neither precipitation nor lightning was observed at launch time
+  page: 10
+  type: lookup
+- question: Which systems measured the upper level winds and thermodynamics, and at what times?
+  answer: The FPS-16 Jimsphere (1709 u.t.) and the MSS Rawinsonde (1620 u.t.)
+  evidence:
+  - FPS-16 Jimsphere (1709 u.t.)
+  - MSS Rawinsonde (1620 u.t.)
+  page: 10
+  type: lookup
+- question: What was the wind speed at launch time at 60 ft?
+  answer: 13.5 ft/s (8.0 kn)
+  evidence:
+  - 13.5 ft/s (8.0 kn) at 60 ft
+  page: 10
+  type: lookup
+- question: At what time was STS-34 launched, and at what time was the GOES-7 visible picture taken?
+  answer: Launch at 1654 u.t.; the GOES-7 picture at 1701 u.t., 7 minutes after liftoff
+  evidence:
+  - 1654 u.t.
+  - 1701 u.t.
+  page: 9
+  type: cross_page
+- question: What does Figure 3 show?
+  answer: GOES-7 visible imagery of cloud cover 7 min after launch of STS-34
+  evidence:
+  - GOES-7
+  - cloud cover
+  - 7 min after launch
+  page: 6
+  type: lookup
+- question: In Table 1, which vehicle flew mission STS-6?
+  answer: Challenger
+  evidence:
+  - STS-6
+  - Challenger
+  page: 12
+  type: table_cell
+- question: What was the payload mass of STS-34?
+  answer: The report covers atmospheric conditions, not payload mass.
+  evidence: []
+  page: 10
+  type: unanswerable

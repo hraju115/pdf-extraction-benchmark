@@ -1,0 +1,80 @@
+questions:
+- question: What is the title of NASA Technical Memorandum 104114 and when was it issued?
+  answer: Concepts for Manned Lunar Habitats, August 1991
+  evidence:
+  - CONCEPTS FOR MANNED LUNAR HABITATS
+  - August 1991
+  page: 1
+  type: lookup
+- question: Which NASA center is associated with the report?
+  answer: Langley Research Center
+  evidence:
+  - Langley Research Center
+  page: 1
+  type: lookup
+- question: What density of aluminum is assumed for spacecraft-lander masses?
+  answer: 2,700 kg/m3 (168.56 lbs/ft3)
+  evidence:
+  - 2,700 kg/m3
+  page: 10
+  type: lookup
+- question: What velocity increment is adopted for earth escape from LEO?
+  answer: 3,150 m/sec (10,345 ft/sec)
+  evidence:
+  - Earth escape from LEO
+  - 3,150 m/sec
+  page: 10
+  type: table_cell
+- question: What velocity increment is adopted for the mid-course correction?
+  answer: 66 m/sec (216 ft/sec)
+  evidence:
+  - Mid-course correction
+  - 66 m/sec
+  page: 10
+  type: table_cell
+- question: What velocity increment is adopted to achieve lunar orbit at 100 km?
+  answer: 970 m/sec (3,183 ft/sec)
+  evidence:
+  - Achieve lunar orbit at 100 km
+  - 970 m/sec
+  page: 10
+  type: table_cell
+- question: What velocity increment is adopted for the descent from lunar orbit?
+  answer: 2,100 m/sec (6,890 ft/sec)
+  evidence:
+  - Descent from lunar orbit
+  - 2,100 m/sec
+  page: 10
+  type: table_cell
+- question: What propellant combination do the uprated OMS engines use?
+  answer: Nitrogen tetroxide (N2O4) and unsymmetric dimethyl hydrazine (UDMH)
+  evidence:
+  - nitrogen tetroxide (N2O4)
+  - unsymmetric dimethyl hydrazine
+  page: 10
+  type: lookup
+- question: What thrust level is given as an example for the propulsion system?
+  answer: 26,688 N (6,000 lb)
+  evidence:
+  - 26,688 N (6,000 lb)
+  page: 10
+  type: lookup
+- question: How fast does a free-fall from 15 m attain in the lunar gravity field?
+  answer: 6.9 m/sec (22.6 ft/sec) in 4.4 seconds
+  evidence:
+  - free-fall from 15 m
+  - 6.9 m/sec
+  page: 10
+  type: lookup
+- question: What stroke do the attenuators need for a 20 m/sec2 deceleration?
+  answer: 1.2 m (3.9 ft), accomplished in 350 milliseconds
+  evidence:
+  - strokes of 1.2 m
+  - 350 milliseconds
+  page: 10
+  type: lookup
+- question: How many astronauts flew to the Moon in the Apollo 11 mission?
+  answer: The report does not discuss Apollo 11 crew size.
+  evidence: []
+  page: 10
+  type: unanswerable

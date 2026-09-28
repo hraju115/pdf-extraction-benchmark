@@ -1,0 +1,87 @@
+questions:
+- question: Who is the author of NASA TM X-9471 and at which center?
+  answer: Daniel R. Jones, John C. Stennis Space Center
+  evidence:
+  - Daniel R. Jones
+  - John C. Stennis Space Center
+  page: 1
+  type: lookup
+- question: What is the title of the memorandum?
+  answer: 'Passive Rocket Diffuser Testing: Performance Similitude via Nozzle Contour Modification'
+  evidence:
+  - PASSIVE ROCKET DIFFUSER TESTING
+  - NOZZLE CONTOUR MODIFICATION
+  page: 1
+  type: lookup
+- question: What was the maximum chamber pressure available at the test stand?
+  answer: 7.9 MPa
+  evidence:
+  - maximum of 7.9 MPa
+  page: 4
+  type: lookup
+- question: What RS-25 throttle range was the subscale thruster meant to approximate?
+  answer: 12.3 - 15.2 MPa
+  evidence:
+  - 12.3 - 15.2 MPa
+  page: 4
+  type: lookup
+- question: What kind of nozzle contour was defined to counteract the chamber pressure difference?
+  answer: A thrust-optimized parabolic (TOP) nozzle contour
+  evidence:
+  - thrust-optimized parabolic (TOP) nozzle contour
+  page: 4
+  type: lookup
+- question: What full chamber pressure was assumed for the engine?
+  answer: 18.9 MPa
+  evidence:
+  - Full chamber pressures were considered to be 18.9 MPa
+  page: 4
+  type: lookup
+- question: Which simulant gas was assessed for rocket plume aerodynamics five years after the original campaign?
+  answer: Heated ethane
+  evidence:
+  - heated ethane as a simulant gas
+  page: 5
+  type: lookup
+- question: Down to what model-to-engine chamber pressure ratio has the approach been shown useful?
+  answer: At least 0.52
+  evidence:
+  - chamber pressure ratio of at least 0.52
+  page: 5
+  type: lookup
+- question: Which simulation tool are the steady-state wall pressures compared against?
+  answer: Loci/CHEM
+  evidence:
+  - Loci/CHEM
+  page: 5
+  type: lookup
+- question: In Figure 1, what nozzle exit pressure ratio (model over engine) does the thruster design point have?
+  answer: '1.238'
+  evidence:
+  - Thruster Design Point
+  - '1.238'
+  page: 6
+  type: figure
+  evidence_source: visual
+- question: In Figure 1, what nozzle exit Mach number ratio does the thruster design point have?
+  answer: '0.893'
+  evidence:
+  - '0.893'
+  - '0.522'
+  page: 6
+  type: figure
+  evidence_source: visual
+- question: Which two nozzles are compared in Figure 2 and what unit is on its axis?
+  answer: The thruster and the RS-25, with the axis in centimeters
+  evidence:
+  - Thruster
+  - RS-25
+  - '[cm]'
+  page: 6
+  type: figure
+  evidence_source: visual
+- question: What was the total cost of the test campaign?
+  answer: The memorandum does not give a cost.
+  evidence: []
+  page: 5
+  type: unanswerable

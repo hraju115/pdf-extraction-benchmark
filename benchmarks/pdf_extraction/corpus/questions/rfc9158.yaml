@@ -1,0 +1,66 @@
+questions:
+- question: Which earlier RFC does RFC 9158 update?
+  answer: RFC 7299
+  evidence:
+  - Updates
+  - '7299'
+  page: 1
+  type: lookup
+- question: Who is the author of RFC 9158?
+  answer: R. Housley of Vigil Security
+  evidence:
+  - Housley
+  - Vigil Security
+  page: 1
+  type: lookup
+- question: What object identifier arc did IANA allocate to the PKIX Working Group?
+  answer: 1.3.6.1.5.5.7
+  evidence:
+  - 1.3.6.1.5.5.7
+  page: 1
+  type: lookup
+- question: In what month and year was RFC 9158 published?
+  answer: November 2021
+  evidence:
+  - November 2021
+  page: 1
+  type: lookup
+- question: Which two identifiers make up the initial contents of the new subregistry, and what RFC defines them?
+  answer: id-acTemplate and id-openPGPCertTemplateExt, both from RFC 4212
+  evidence:
+  - id-acTemplate
+  - id-openPGPCertTemplateExt
+  page: 3
+  type: table_multi_row
+- question: What description does decimal value 2 have in Table 1?
+  answer: id-openPGPCertTemplateExt
+  evidence:
+  - id-openPGPCertTemplateExt
+  - RFC4212
+  page: 3
+  type: table_cell
+- question: Which policy governs future updates to the registry table?
+  answer: The Specification Required policy defined in RFC 8126
+  evidence:
+  - Specification Required
+  - RFC8126
+  page: 3
+  type: lookup
+- question: Does RFC 9158 raise any new security considerations?
+  answer: No, it raises no new security considerations
+  evidence:
+  - raises no new security considerations
+  page: 3
+  type: lookup
+- question: Which RFC assigned the omitted identifiers that this document registers, and what are their names?
+  answer: RFC 4212 assigned id-acTemplate and id-openPGPCertTemplateExt
+  evidence:
+  - RFC 4212
+  - id-acTemplate
+  page: 2
+  type: cross_page
+- question: What fee does IANA charge for registering a new identifier in this arc?
+  answer: The document does not say.
+  evidence: []
+  page: 3
+  type: unanswerable

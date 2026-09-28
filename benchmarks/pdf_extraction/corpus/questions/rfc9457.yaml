@@ -1,0 +1,74 @@
+questions:
+- question: Which earlier RFC does RFC 9457 obsolete?
+  answer: RFC 7807
+  evidence:
+  - Obsoletes
+  - '7807'
+  page: 1
+  type: lookup
+- question: What is the title of RFC 9457?
+  answer: Problem Details for HTTP APIs
+  evidence:
+  - Problem Details for HTTP APIs
+  page: 1
+  type: lookup
+- question: What media type identifies the canonical JSON serialization of problem details?
+  answer: application/problem+json
+  evidence:
+  - application/problem+json
+  page: 4
+  type: lookup
+- question: In the out-of-credit example, what HTTP status line does the server return?
+  answer: 403 Forbidden
+  evidence:
+  - HTTP/1.1 403 Forbidden
+  page: 4
+  type: lookup
+- question: What balance does the out-of-credit example report?
+  answer: '30'
+  evidence:
+  - Your current balance is 30, but that costs 50
+  page: 4
+  type: lookup
+- question: In the validation-error example, which status is returned?
+  answer: 422 Unprocessable Content
+  evidence:
+  - 422 Unprocessable Content
+  page: 5
+  type: lookup
+- question: What does the "pointer" member in the validation-error example locate?
+  answer: The problem within the request's content, using a JSON Pointer
+  evidence:
+  - pointer
+  - JSON Pointer
+  page: 5
+  type: lookup
+- question: What value is assumed for "type" when the member is not present?
+  answer: about:blank
+  evidence:
+  - about:blank
+  page: 6
+  type: lookup
+- question: Is the "status" member authoritative or advisory?
+  answer: 'Advisory: it conveys the HTTP status code for the convenience of the consumer'
+  evidence:
+  - only advisory
+  page: 6
+  type: lookup
+- question: What must clients do with extension members they do not recognize?
+  answer: They MUST ignore them
+  evidence:
+  - MUST ignore any such extensions
+  page: 8
+  type: lookup
+- question: Why are generic problems like a 'write access disallowed' condition better expressed as plain status codes?
+  answer: Because a 403 Forbidden status code in response to a PUT request is self-explanatory
+  evidence:
+  - 403 Forbidden status code in response to a PUT request
+  page: 8
+  type: lookup
+- question: How many problem types has IANA registered so far?
+  answer: The document does not say.
+  evidence: []
+  page: 4
+  type: unanswerable

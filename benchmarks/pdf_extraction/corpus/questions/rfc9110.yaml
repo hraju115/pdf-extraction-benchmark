@@ -1,0 +1,88 @@
+questions:
+- question: What STD number does RFC 9110 carry, and which RFC does it update?
+  answer: STD 97; it updates RFC 3864
+  evidence:
+  - STD
+  - '97'
+  - Updates
+  - '3864'
+  page: 1
+  type: lookup
+- question: What is the title of RFC 9110?
+  answer: HTTP Semantics
+  evidence:
+  - HTTP Semantics
+  page: 1
+  type: lookup
+- question: What prefix marks a weak entity tag in the ETag grammar?
+  answer: W/
+  evidence:
+  - weak
+  - '%s"W/"'
+  page: 68
+  type: lookup
+- question: In Table 4, what does the CONNECT method do?
+  answer: Establish a tunnel to the server identified by the target resource
+  evidence:
+  - CONNECT
+  - Establish a tunnel to the server identified by the target resource
+  page: 72
+  type: table_cell
+- question: In Table 4, which section defines the OPTIONS method?
+  answer: Section 9.3.7
+  evidence:
+  - OPTIONS
+  - 9.3.7
+  page: 72
+  type: table_cell
+- question: According to Table 4, which two methods replace or remove all current representations of the target resource?
+  answer: PUT replaces them and DELETE removes them
+  evidence:
+  - PUT
+  - Replace all current representations
+  - DELETE
+  - Remove all current representations
+  page: 72
+  type: table_multi_row
+- question: Which methods MUST all general-purpose servers support?
+  answer: GET and HEAD
+  evidence:
+  - MUST support the methods GET and HEAD
+  page: 72
+  type: lookup
+- question: Which status code should a server send when a method is recognized and implemented but not allowed for the target resource?
+  answer: 405 (Method Not Allowed)
+  evidence:
+  - 405 (Method Not Allowed)
+  page: 72
+  type: lookup
+- question: Which request methods defined by the specification are safe?
+  answer: GET, HEAD, OPTIONS and TRACE
+  evidence:
+  - GET, HEAD, OPTIONS, and TRACE
+  page: 73
+  type: lookup
+- question: Which request methods defined by the specification are idempotent?
+  answer: PUT, DELETE and the safe request methods
+  evidence:
+  - PUT, DELETE, and safe request methods are idempotent
+  page: 73
+  type: lookup
+- question: May a client automatically retry a request with a non-idempotent method?
+  answer: It SHOULD NOT, unless it knows the semantics are actually idempotent or can detect the request was never applied
+  evidence:
+  - automatically retry a request with a non-idempotent method
+  page: 73
+  type: lookup
+- question: What is the status of the 418 status code?
+  answer: It is reserved (Unused) in the IANA HTTP Status Code Registry
+  evidence:
+  - 418 (Unused)
+  - reserved in the IANA HTTP Status Code Registry
+  page: 141
+  type: lookup
+- question: In which programming language is the reference implementation of HTTP written?
+  answer: The document does not say.
+  evidence: []
+  page: 72
+  type: unanswerable

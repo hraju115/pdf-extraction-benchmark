@@ -1,0 +1,19 @@
+# Environment for the harness itself: runner, corpus builder, metrics, scoring, report and the unit tests.
+pymupdf
+pyyaml
+rapidfuzz
+apted
+beautifulsoup4
+lxml
+reportlab
+matplotlib
+pillow
+numpy
+psutil
+httpx
+pytest
+pytest-asyncio
+# DocuMind modules used by the downstream stage's chunking tests
+pydantic
+tiktoken
+structlog

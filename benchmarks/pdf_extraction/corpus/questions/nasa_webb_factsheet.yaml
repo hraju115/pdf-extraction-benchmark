@@ -1,0 +1,93 @@
+questions:
+- question: How long ago does Webb look back to see the first stars and galaxies forming?
+  answer: Over 13.5 billion years ago
+  evidence:
+  - over 13.5 billion years ago
+  page: 1
+  type: lookup
+- question: What technique will Webb use to learn the chemical compositions of exoplanet atmospheres?
+  answer: Transmission spectroscopy
+  evidence:
+  - transmission spectroscopy
+  page: 1
+  type: lookup
+- question: How large is Webb's primary mirror?
+  answer: 21.3 feet (6.5 meters) across
+  evidence:
+  - 21.3 feet
+  - 6.5 meters
+  page: 2
+  type: lookup
+- question: How many hexagonal segments make up the mirror?
+  answer: 18 gold-plated hexagonal deployable segments
+  evidence:
+  - 18 gold-plated hexagonal deployable
+  page: 2
+  type: lookup
+- question: What is the wavelength range Webb observes?
+  answer: 0.6-28.5 micrometers
+  evidence:
+  - 0.6-28.5 micrometers
+  page: 2
+  type: lookup
+- question: How far from Earth will Webb orbit?
+  answer: About 1 million miles (1.5 million kilometers)
+  evidence:
+  - 1 million miles
+  - 1.5 million kilometers
+  page: 2
+  type: lookup
+- question: Which space agencies partner with NASA on Webb?
+  answer: ESA (European Space Agency) and the Canadian Space Agency
+  evidence:
+  - ESA (European Space Agency)
+  - Canadian Space Agency
+  page: 2
+  type: lookup
+- question: Which four science instruments does Webb have, per the Quick Facts?
+  answer: NIRCam, NIRSpec, MIRI and NIRISS with the FGS
+  evidence:
+  - NIRCam
+  - NIRSpec
+  - MIRI
+  - NIRISS
+  page: 2
+  type: table_multi_row
+- question: In the instruments diagram, what does the label ISIM stand for?
+  answer: Integrated Science Instrument Module
+  evidence:
+  - Integrated Science Instrument Module
+  - ISIM
+  page: 2
+  type: figure
+  evidence_source: visual
+- question: In the diagram, what does the label OTE stand for?
+  answer: Optical Telescope Element
+  evidence:
+  - Optical Telescope Element
+  - OTE
+  page: 2
+  type: figure
+  evidence_source: visual
+- question: Which two mirrors are labelled in the diagram?
+  answer: Primary Mirror and Secondary Mirror
+  evidence:
+  - PRIMARY MIRROR
+  - SECONDARY MIRROR
+  page: 2
+  type: figure
+  evidence_source: visual
+- question: Which components attached to the spacecraft are labelled Solar Array and Earth-Pointing Antenna in the diagram?
+  answer: The diagram labels a Solar Array and an Earth-Pointing Antenna on the spacecraft bus side
+  evidence:
+  - SOLAR ARRAY
+  - EARTH-POINTING ANTENNA
+  - SPACECRAFT BUS
+  page: 2
+  type: figure
+  evidence_source: visual
+- question: What is the total cost of the Webb mission?
+  answer: The fact sheet does not give a cost.
+  evidence: []
+  page: 2
+  type: unanswerable

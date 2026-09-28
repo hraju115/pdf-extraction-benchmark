@@ -1,0 +1,88 @@
+questions:
+- question: Who wrote this American Community Survey brief?
+  answer: Katherine Engel and Kirby G. Posey
+  evidence:
+  - Katherine Engel
+  - Kirby G. Posey
+  page: 1
+  type: lookup
+- question: Which three states saw median household income increase from 2022 after adjusting for inflation?
+  answer: Florida, Nebraska, and Vermont
+  evidence:
+  - Florida, Nebraska, and Vermont
+  page: 1
+  type: lookup
+- question: What was the median household income of the District of Columbia?
+  answer: $108,210, the highest in the nation
+  evidence:
+  - $108,210
+  - District of Columbia
+  page: 1
+  type: lookup
+- question: Which state had the lowest median household income, and how much was it?
+  answer: Mississippi, $54,203
+  evidence:
+  - $54,203
+  page: 1
+  type: lookup
+- question: What was the U.S. median household income according to the ACS?
+  answer: $77,719
+  evidence:
+  - $77,719
+  page: 2
+  type: lookup
+- question: What range does the Gini index vary over, and what does 0 indicate?
+  answer: 0 to 1; 0 is perfect equality
+  evidence:
+  - varies from 0 to 1
+  - perfect equality
+  page: 2
+  type: lookup
+- question: What was Alabama's 2023 ACS median household income in Table 1?
+  answer: 62,212 dollars
+  evidence:
+  - Alabama
+  - 62,212
+  page: 3
+  type: table_cell
+- question: What was California's 2023 ACS median household income?
+  answer: 95,521 dollars
+  evidence:
+  - California
+  - 95,521
+  page: 3
+  type: table_cell
+- question: What was Alaska's percent change in median income, and is it marked as statistically significant?
+  answer: -5.6 percent, marked with an asterisk
+  evidence:
+  - Alaska
+  - –5.6
+  page: 3
+  type: table_cell
+- question: What was the 2022 ACS Gini index for the United States?
+  answer: '0.486'
+  evidence:
+  - United States
+  - '0.486'
+  page: 3
+  type: table_cell
+- question: How did Maryland's median household income change between the 2022 and 2023 ACS?
+  answer: It moved from 98,910 to 98,678 dollars
+  evidence:
+  - Maryland
+  - 98,910
+  - 98,678
+  page: 3
+  type: table_multi_row
+- question: What was the 2023 ACS median household income for Massachusetts?
+  answer: 99,858 dollars
+  evidence:
+  - Massachusetts
+  - 99,858
+  page: 3
+  type: table_cell
+- question: What was the median household income in Canada in 2023?
+  answer: The brief covers only the United States and Puerto Rico.
+  evidence: []
+  page: 3
+  type: unanswerable

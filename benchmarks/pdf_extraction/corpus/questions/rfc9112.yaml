@@ -1,0 +1,110 @@
+questions:
+- question: Which RFC does RFC 9112 partly obsolete, and what is its STD number?
+  answer: It obsoletes portions of RFC 7230 and is STD 99
+  evidence:
+  - Obsoletes
+  - '7230'
+  - STD
+  page: 1
+  type: lookup
+- question: Who are the editors of RFC 9112?
+  answer: R. Fielding, M. Nottingham and J. Reschke
+  evidence:
+  - Fielding
+  - Nottingham
+  - Reschke
+  page: 1
+  type: lookup
+- question: What must a recipient parse an HTTP message as?
+  answer: A sequence of octets in an encoding that is a superset of US-ASCII
+  evidence:
+  - superset of US-ASCII
+  page: 7
+  type: lookup
+- question: May a recipient treat a single LF as a line terminator?
+  answer: Yes, a recipient MAY recognize a single LF as a line terminator and ignore any preceding CR
+  evidence:
+  - single LF as a line terminator
+  page: 7
+  type: lookup
+- question: What should a server respond with when it receives octets that do not match the HTTP-message grammar?
+  answer: A 400 (Bad Request) response, and close the connection
+  evidence:
+  - 400 (Bad Request)
+  page: 8
+  type: lookup
+- question: Which two attacks does rejecting whitespace-preceded lines protect against?
+  answer: Request smuggling and response splitting
+  evidence:
+  - request smuggling
+  - response splitting
+  page: 8
+  type: cross_page
+- question: What is the value of HTTP-name in the grammar?
+  answer: '%s"HTTP"'
+  evidence:
+  - HTTP-name
+  - '%s"HTTP"'
+  page: 8
+  type: lookup
+- question: What grammar rule defines the request-line?
+  answer: request-line = method SP request-target SP HTTP-version
+  evidence:
+  - method SP request-target SP HTTP-version
+  page: 9
+  type: lookup
+- question: What minimum request-line length is it RECOMMENDED that senders and recipients support?
+  answer: 8000 octets
+  evidence:
+  - 8000 octets
+  page: 9
+  type: lookup
+- question: Which status code must a server send for a request-target longer than any URI it wishes to parse?
+  answer: 414 (URI Too Long)
+  evidence:
+  - 414 (URI Too Long)
+  page: 9
+  type: lookup
+- question: Which status code should a server send when the method is longer than any it implements?
+  answer: 501 (Not Implemented)
+  evidence:
+  - 501 (Not Implemented)
+  page: 9
+  type: lookup
+- question: How many distinct formats does a request-target have?
+  answer: Four
+  evidence:
+  - four distinct formats for the request-target
+  page: 9
+  type: lookup
+- question: How must the chunked transfer coding be applied when other codings are applied to a request's content?
+  answer: Chunked MUST be the final transfer coding
+  evidence:
+  - apply chunked as the final transfer coding
+  page: 17
+  type: lookup
+- question: 'What does the example header ''Transfer-Encoding: gzip, chunked'' indicate?'
+  answer: The content was compressed with gzip and then chunked
+  evidence:
+  - gzip, chunked
+  - compressed using the gzip coding
+  page: 17
+  type: lookup
+- question: 'What does the ''Connection: close'' request header signal?'
+  answer: That this is the last request the client will send on the connection
+  evidence:
+  - 'Connection: close'
+  - last request that the client will send
+  page: 29
+  type: lookup
+- question: Which header field name is reserved because it could conflict with the close connection option?
+  answer: Close
+  evidence:
+  - field name "Close" is reserved
+  page: 29
+  type: lookup
+- question: What is the maximum number of pipelined requests HTTP/1.1 allows?
+  answer: The document does not specify a maximum.
+  evidence: []
+  page: 9
+  type: unanswerable
